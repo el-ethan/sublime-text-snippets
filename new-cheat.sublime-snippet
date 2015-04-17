@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+entry do
+  command '${1:command}'
+  name '${2:short name}'
+  notes '${3:longer description}'
+end
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xnc</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.ruby</scope>
+</snippet>
