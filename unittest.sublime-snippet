@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+import unittest
+
+class Test${1:Something}(unittest.TestCase):
+
+    def test_${2:something}(self):
+        {3:pass}
+
+if __name__ == '__main__':
+    unittest.main()
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xut</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
+
